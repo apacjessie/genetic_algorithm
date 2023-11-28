@@ -1,6 +1,5 @@
 # Learning Genetic Algorithm
 
-Foobar is a Python library for dealing with word pluralization.
 
 In my 4th year Thesis. our group propose automatic scheduling system to help our school's staff that making schedule easier without any conflict. all they need to do is add parameters like professors, room, subject. and of course the availability of the said professors and room.
 
