@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-800 text-white p-5;
+  }
+}
+
+@layer components {
+  .header {
+    @apply flex justify-between;
+  }
+  .header-nav {
+    @apply flex space-x-4 items-center;
+  }
+  .header-title {
+    @apply text-lg md:text-2xl tracking-wider font-semibold;
+  }
+}
